@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F8F8F8;
+  --color-bg-warm: #F5F0E8;
+  --color-bg-dark: #2D2D2D;
+  --color-accent: #5B9BD5;
+  --color-text: #1A1A1A;
+  --color-text-muted: #666666;
+  --color-border: #E5E5E5;
+  --color-pull-quote: #5B9BD5;
+
+  --font-barlow-condensed: var(--font-barlow-condensed);
+  --font-source-serif: var(--font-source-serif);
+  --font-inter: var(--font-inter);
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.font-barlow {
+  font-family: var(--font-barlow-condensed), 'Barlow Condensed', sans-serif;
+}
+
+.font-serif-body {
+  font-family: var(--font-source-serif), 'Source Serif 4', Georgia, serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
