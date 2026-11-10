@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <div style={{ backgroundColor: '#F5F0E8' }} className="min-h-screen pt-16 sm:pt-20">
+    <div style={{ backgroundColor: '#FFFFFF' }} className="min-h-screen pt-16 sm:pt-20">
       <div className="max-w-[720px] mx-auto px-4 sm:px-6 py-14">
         <div className="mb-10">
           <span className="font-inter text-xs font-medium tracking-widest uppercase text-[#5B9BD5] mb-3 block">
@@ -18,7 +18,7 @@ export default function ContactPage() {
 
           <div
             className="rounded p-8"
-            style={{ backgroundColor: '#EDE8DF', border: '1px solid #D5CEBD' }}
+            style={{ backgroundColor: '#F8F8F8', border: '1px solid #E5E5E5' }}
           >
             <p className="font-inter text-xs font-medium tracking-widest uppercase text-[#666666] mb-2">
               General Contact

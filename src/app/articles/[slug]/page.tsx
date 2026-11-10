@@ -36,7 +36,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const related = recent.filter(a => a.id !== article.id).slice(0, 3)
 
   return (
-    <div style={{ backgroundColor: '#F5F0E8' }} className="min-h-screen pt-16 sm:pt-20">
+    <div style={{ backgroundColor: '#FFFFFF' }} className="min-h-screen pt-16 sm:pt-20">
       {/* Full-width hero image */}
       {article.thumbnail && (
         <div className="relative w-full h-[50vh] min-h-[300px] max-h-[520px]">
@@ -48,7 +48,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#F5F0E8] via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent" />
         </div>
       )}
 
@@ -105,7 +105,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         {/* Author card */}
         <div
           className="rounded p-6 mb-10 flex gap-4 items-start"
-          style={{ backgroundColor: '#EDE8DF' }}
+          style={{ backgroundColor: '#F8F8F8', border: '1px solid #E5E5E5' }}
         >
           {article.author_headshot && (
             <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">

@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div style={{ backgroundColor: '#F5F0E8' }} className="min-h-screen pt-16 sm:pt-20">
+    <div style={{ backgroundColor: '#FFFFFF' }} className="min-h-screen pt-16 sm:pt-20">
       <div className="max-w-[720px] mx-auto px-4 sm:px-6 py-14">
         {/* Header */}
         <div className="mb-10">

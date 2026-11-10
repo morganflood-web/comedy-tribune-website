@@ -24,7 +24,7 @@ export default function ShareBox({ title, slug }: ShareBoxProps) {
   return (
     <div
       className="rounded p-6 mb-10 text-center"
-      style={{ backgroundColor: '#EDE8DF', border: '1px solid #D5CEBD' }}
+      style={{ backgroundColor: '#F8F8F8', border: '1px solid #E5E5E5' }}
     >
       <p className="font-barlow text-xl font-bold italic text-[#1A1A1A] mb-2">
         Share this story
